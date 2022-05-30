@@ -47,7 +47,7 @@ contract Fly is ERC721Enumerable, Ownable {
         );
         require(tokenQuantity <= maxMint, "Can only mint 1 tokens at a time");
 
-        _mintNicMeta(tokenQuantity);
+        _mintFly(tokenQuantity);
     }
 
     function _mintFly(uint256 tokenQuantity) internal {
