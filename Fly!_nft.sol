@@ -14,7 +14,7 @@ contract Fly is ERC721Enumerable, Ownable {
 
     // Constants
     uint256 public constant MAX_SUPPLY = 10;
-    uint256 public mintPrice = 0.3 ether;
+    uint256 public mintPrice = 0.1 ether;
     uint256 public maxBalance = 1;
     uint256 public maxMint = 1;
 
